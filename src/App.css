@@ -1,0 +1,155 @@
+header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  z-index: 1;
+  box-shadow: 0px 2px 5px black;
+  padding: 0 2em;
+}
+
+header button
+{
+  background-color: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+  width: 5em;
+}
+
+main
+{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 2em 10em;
+}
+
+.leftCard
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leftCard-img
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 15em;
+    height: 15em;
+    background-color: #f69e7b;
+    margin-bottom: 2em;
+    justify-content: center;
+}
+.leftCard-img i
+{
+  transform: scale(6,6);
+  align-self: center;
+}
+.leftCard h1
+{
+  text-align: center;
+}
+
+.leftCard hr
+{
+  width: 100%;
+}
+
+.rightPanel 
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+  padding-left: 2em;
+  border-left: 2px solid;
+}
+
+section
+{
+  margin-bottom: 2em;
+}
+
+.deep
+{
+  
+  height: 220px;
+  background-color: #e6e6e6;
+  padding: 2em;
+  border-radius: 20px;
+  overflow: auto;
+  max-width: 55em;
+}
+
+.item
+{
+  background-color: rgb(255, 255, 255);
+  padding: 0.25em 2em;
+  margin-bottom: 2em;
+  border-radius: 20px;
+}
+
+.courseCard
+{
+  margin: 0 1em;
+  text-align: center;
+  font-size: 100%;
+  font-family: inherit;
+  border: 0;
+  padding: 0;
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+
+.courseImg
+{
+  width: 10em;
+  height: 10em;
+  background-color: aquamarine;
+  border-radius: 20px;
+}
+
+.loginContainer
+{
+  padding: 10em 10em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.loginCard
+{
+  display: flex;
+  flex-direction: column;
+  padding: 0 10em;
+}
+
+.lesson
+{
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 0 2em;
+  box-shadow: 0px 3px 2px grey;
+  margin-bottom: 2em;
+  width: 100%;
+  text-align: left;
+}
+
+a
+{
+  color: black;
+  text-decoration: none;
+}
+
+.lessonMain
+{
+  display: flex;
+  flex-direction: column;
+  padding: 1em 20em;
+}
